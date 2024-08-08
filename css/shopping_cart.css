@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+   color: #333;
+   margin: 0;
+}
+
+.shopping-cart {
+   background-color: #f9f9f9;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .shopping-cart .heading {
+   margin-bottom: 20px;
+   text-align: center;
+   font-size: 2em;
+   color: #333;
+ }
+ 
+ .table-bottom td {
+   font-weight: bold;
+ }
+ 
+ .table-bottom .btn {
+   width: 100%;
+ }
+ 
+ .table img {
+   max-width: 100px;
+   height: auto;
+   display: block;
+   margin: auto;
+ }
+ 
+ .cart-btn .btn {
+   margin-top: 20px;
+ }
+ 
+ .cart-btn {
+   text-align: right;
+ }
+ 
+ 
+ 
+ .footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: darkolivegreen;
+   padding: 10px;
+   color: white;
+   text-align: center;
+ }
+ 
+ .logo-wrapper {
+   display: flex;
+   gap: 10px; /* Adjust the gap between logos as needed */
+ }
+ 
+ .social-icon {
+   color: white;
+   margin-right: 10px; /* Adjust the spacing between icons as needed */
+   text-decoration: none; /* Remove default underline on anchor tags */
+ }
+ 
+ .social-icon:hover {
+   color: #cccccc; /* Change the color on hover if desired */
+ }
+ 
+ .contact-info {
+   margin: 0;
+ }
+ 
+ .phone-number,
+ .email-address {
+   font-size: 14px; /* Adjust font size as needed */
+   font-style: italic;
+ }
+ 
+ .social-media-container {
+   display: flex;
+   align-items: center;
+ }
+ 
+ /* Add media query for responsiveness */
+ @media (max-width: 768px) {
+   .footer {
+     flex-direction: column;
+   }
+ 
+   .contact-info,
+   .social-media-container {
+     margin-top: 10px;
+   }
+ }
+   

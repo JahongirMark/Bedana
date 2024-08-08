@@ -1,0 +1,11 @@
+document.getElementById("goBackButton").addEventListener("click", function() {
+    // Show a confirmation dialog
+    var confirmResult = confirm("Your changes will be lost!");
+    
+    // If user confirms, redirect to another page
+    if (confirmResult) {
+        window.location.href = "../html/index.php"; // Change the URL to the desired page
+    } else {
+        // If user cancels, do nothing
+    }
+});

@@ -1,0 +1,96 @@
+/* styles.css */
+
+.contact_us-info {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: "Lora";
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+.contact-details {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-details h2 {
+    font-size: 2em;
+    color: #333;
+    
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.map-container {
+    margin-left: 100px; /* Adjust the margin as needed, this will push it to the right */
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  gap: 10px; /* Adjust the gap between logos as needed */
+}
+
+.social-icon {
+  color: white;
+  margin-right: 10px; /* Adjust the spacing between icons as needed */
+  text-decoration: none; /* Remove default underline on anchor tags */
+}
+
+.social-icon:hover {
+  color: #cccccc; /* Change the color on hover if desired */
+}
+
+.contact-info {
+  margin: 0;
+}
+
+.phone-number,
+.email-address {
+  font-size: 14px; /* Adjust font size as needed */
+  font-style: italic;
+}
+
+.social-media-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .social-media-container {
+    margin-top: 10px;
+  }
+}
+  
+  /* Add media query for responsiveness */
+@media (max-width: 992px) {
+    .contact_us-info {
+        flex-direction: column;
+    }
+
+    .contact-details,
+    .map-container {
+        margin-bottom: 20px;
+    }
+}

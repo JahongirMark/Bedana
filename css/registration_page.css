@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/img/login-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.registration-container {
+  color: #2e7d32; /* Dark green heading color */
+  text-align: left; /* Align text to the left */
+  max-width: 410px;
+  width: 90%; /* Adjusted width */
+  padding: 20px;
+  background-color: rgba(
+    200,
+    230,
+    201,
+    0.8
+  ); /* Background color with opacity */
+  border-radius: 10px;
+  border: 2px solid darkgreen;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: auto; /* Center the container horizontally */
+}
+
+form {
+  font-weight: bold;
+}
+
+.registration-container h2 {
+  color: #2e7d32; /* Dark green heading color */
+  text-align: center;
+}
+
+/* Change border color of input field when focused */
+input.form-control:focus {
+  border-color: darkgreen; /* Change this to the color you prefer */
+  box-shadow: 0 0 5px green; /* Optional: Add a shadow for emphasis */
+}
+
+input.form-check-input:focus {
+  border-color: darkgreen; /* Change this to the color you prefer */
+  box-shadow: 0 0 5px green; /* Optional: Add a shadow for emphasis */
+}
+
+.input-group-append .fa-eye {
+  width: 20px; /* Adjust the size as needed */
+  height: 32px;
+}
+
+
+
+.button-container {
+  text-align: center;
+  margin-top: 20px; /* Add some margin at the top for better spacing */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e7d32; /* Dark green button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1b5e20; /* Darker green on hover */
+}
+
+/* ... existing styles ... */
+
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.form-options p {
+  color: #555;
+}
+
+.form-options a {
+  text-decoration: none;
+  color: #2e7d32; /* Dark green link color */
+  transition: color 0.3s ease;
+}
+
+.form-options a:hover {
+  color: #1b5e20; /* Darker green on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  display: none; /* Hidden by default */
+}
+.success-message {
+  color: green;
+  font-size: 12px;
+  display: none; /* Hidden by default */
+}
+
+#dist {
+  font-size: inherit; /* Inherit font size from parent element */
+}

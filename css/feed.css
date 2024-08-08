@@ -1,0 +1,132 @@
+/* styles.css */
+
+body {
+    font-family: "Lora";
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 500px;
+  }
+
+.content {
+    font-family: "Lora";
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-around;
+    margin: 20px;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Style for the section header */
+.section-header {
+    text-align: center;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.section-header h1 {
+    font-size: 2.5em;
+    color: #4a4a4a;
+    text-decoration: underline;
+}
+
+.feed-section {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.feed-info {
+    text-align: center;
+}
+
+.feed-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.feed-info h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.feed-info p {
+    font-size: 1em;
+    color: #666;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  gap: 10px; /* Adjust the gap between logos as needed */
+}
+
+.social-icon {
+  color: white;
+  margin-right: 10px; /* Adjust the spacing between icons as needed */
+  text-decoration: none; /* Remove default underline on anchor tags */
+}
+
+.social-icon:hover {
+  color: #cccccc; /* Change the color on hover if desired */
+}
+
+.contact-info {
+  margin: 0;
+}
+
+.phone-number,
+.email-address {
+  font-size: 14px; /* Adjust font size as needed */
+  font-style: italic;
+}
+
+.social-media-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .social-media-container {
+    margin-top: 10px;
+  }
+}
+  
+
+#starter-feed-image {
+    max-width: 70%; /* Adjust as needed */
+    height: auto;
+}
+
+/* Adjust the size of the second image */
+#grower-feed-image {
+    max-width: 70%; /* Adjust as needed */
+    height: auto;
+}

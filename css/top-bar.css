@@ -1,0 +1,117 @@
+.farm-name-overlay {
+    margin-left: 20px;
+}
+
+.farm-name-overlay h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-item.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-bar {
+    background-color: darkolivegreen;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: position 0.3s ease-in-out; /* Added transition property */
+}
+
+
+.top-bar nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-bar li {
+    margin: 0 10px;
+}
+
+.top-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+    color:#ffcc00;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.badge:after{
+    content:attr(value);
+    font-size:15px;
+    color: #fff;
+    background: #ffcc00;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
+
+.login-logo {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+    margin-left: 10px; /* Adjust margin as needed to separate from other elements */
+}
+
+/* Optional: Add a hover effect */
+.login-logo:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
+
+/* .dropdown-menu {
+    color:#ffcc00;
+} */
+
+.dropdown-menu a {
+    color:black;
+    background-color:#f0f0f0;
+}
+
+.dropdown-menu a:hover {
+    color:#ffcc00;
+}
+
+ /* Styles for the basket icon */
+ .basket-icon-container {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Styles for the login button */
+.login-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: transparent; /* Transparent background */
+    color: #007bff; /* Text color */
+    text-decoration: none;
+    border: 1px solid #007bff; /* Border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.name-link {
+    color: white; /* Set the color to white */
+    cursor: pointer; /* Change the cursor to a pointer */
+  }

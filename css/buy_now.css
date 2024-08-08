@@ -1,0 +1,277 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+/* Basket icon container */
+.basket-icon-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Basket icon itself */
+.basket-icon-container i {
+  color: white; /* Change the color as needed */
+  font-size: 24px; /* Adjust the size as needed */
+}
+
+/* Item count badge */
+.basket-icon-container .cart-item-count {
+  position: absolute;
+  top: -10px; /* Adjust to position the badge */
+  right: -10px; /* Adjust to position the badge */
+  background-color: red; /* Background color for the item count badge */
+  color: white; /* Text color for the item count badge */
+  border-radius: 50%; /* Makes the badge circular */
+  padding: 5px 10px; /* Adjust padding for size */
+  font-size: 14px; /* Adjust font size as needed */
+  font-weight: bold; /* Make the text bold */
+  min-width: 20px; /* Minimum width to ensure it looks circular */
+  text-align: center; /* Center the text inside the badge */
+  line-height: 1; /* Ensure proper vertical alignment of text */
+}
+
+.basket-icon-container:hover i {
+  color: #007bff; /* Change color on hover if needed */
+}
+
+
+.product-list {
+    font-family: "Lora";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product p {
+    font-size: 1em;
+    color: #666;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
+/* styles.css */
+
+.delivery-info {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.delivery-logo {
+    width: 50px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+.delivery-text {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Add media query for responsiveness if needed */
+@media (max-width: 768px) {
+    .delivery-info {
+        padding: 10px;
+    }
+
+    .delivery-logo {
+        width: 80px;
+    }
+
+    .delivery-text {
+        font-size: 1em;
+    }
+}
+
+/* new shopping cart details */
+.products {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.box {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #218838;
+}
+
+.form-control {
+  text-align: center;
+  width: 60px;
+  margin: 0 auto;
+}
+
+/* until here */
+
+.shopping-cart {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart .heading {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+}
+
+.table-bottom td {
+  font-weight: bold;
+}
+
+.table-bottom .btn {
+  width: 100%;
+}
+
+.table img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.cart-btn .btn {
+  margin-top: 20px;
+}
+
+.cart-btn {
+  text-align: right;
+}
+
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkolivegreen;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  gap: 10px; /* Adjust the gap between logos as needed */
+}
+
+.social-icon {
+  color: white;
+  margin-right: 10px; /* Adjust the spacing between icons as needed */
+  text-decoration: none; /* Remove default underline on anchor tags */
+}
+
+.social-icon:hover {
+  color: #cccccc; /* Change the color on hover if desired */
+}
+
+.contact-info {
+  margin: 0;
+}
+
+.phone-number,
+.email-address {
+  font-size: 14px; /* Adjust font size as needed */
+  font-style: italic;
+}
+
+.social-media-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .social-media-container {
+    margin-top: 10px;
+  }
+}
+  
